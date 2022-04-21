@@ -11,7 +11,7 @@
 Задание:
 
 1. реализовать маршрут `GET: /{locale}/calendar/{year}`, который будет отдавать HTML с отрендеренным календарем на заданный год (стили не нужны, достаточно нативного `<table>`)
-2. реализовать маршрут `GET: /{locale}/api/what-day-is/{day}-{month}-{year}`, который будет отдавать JSON с название дня недели. шаблон: `{status: 'success|error', result: '{DayName}|null'}`
+2. реализовать маршрут `GET: /{locale}/api/what-day-is/{day}-{month}-{year}`, который будет отдавать JSON с названием дня недели. шаблон: `{status: 'success|error', result: '{DayName}|null'}`
 
 :information_source: маршруты необходимо реализовать для 2-ух локалей - `ru` и `en`
 
